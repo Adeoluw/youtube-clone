@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+}
+
+.horizontal-nav{
+    display: flex;
+    border: 1px solid none;
+    /* padding: 20px 0; */
+}
+
+.logo{
+    display: flex;
+    border: 1px solid none;
+}
+
+.logo img {
+    height: 100%;
+    aspect-ratio: 3/2;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    left: 20px;
+}
+
+.logo-img{
+    left: 0;
+    right: 0;
+    margin-left: 5px;
+}
+
+.search input{
+    height: 60px;
+    width: 80%;
+    border-radius: 25px 0 0 25px ;
+    margin-right: 0px;
+    border: 1px solid  rgb(213, 212, 212);
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.search{
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.search-button{
+    height: inherit;
+    position: relative;
+    border: 1px solid rgb(213, 212, 212);
+    left: 0;
+    float: right;
+    height: 60px;
+    width: 20%;
+    border-radius: 0 25px 25px 0;
+}
+
+
+
+
+.search-section{
+    display: flex;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.account-details{
+    display: flex;
+    padding: 20px;
+    margin-left: auto;
+}
+
+.account-icon{
+    border: 1px solid none;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    display: flex;
+    background-color:rgb(139, 18, 38);
+    padding: 2px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.toggle-vertical{
+    display: flex;
+    width: 25%;
+}
+
+.ng {
+    position: relative;
+    font-size: small;
+    bottom: 10px;
+    right: 7px;
+}
+
+.open-menu img{
+    width: auto;
+    height: auto;
+    /* margin-top: 25px; */
+}
+
+.mic{
+    /* margin-top: 15px;    */
+    margin-left: 20px;
+    border: 1px solid none;
+    height: 54px;
+    background-color: rgb(236, 236, 236);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-radius:50%;
+}
+
+.search form{
+    width: 100%;
+} 
+
+.open-menu{
+    margin-top: 35px;
+}
+
+/* .open-menu img{
+    width: 20px;
+    height: 40px;
+} */
+
+.account-details i {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+/* Vertical nav */
+
+.vertical-nav{
+    width: 20%;
+}
+
+.section-one hr{
+    width: 75%;
+    left: 0;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nav-link{
+    display: flex;
+}
+
+.section-one{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3px;
+}
+
+.section-two{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3px; 
+}
+
+.section-two hr{
+    width: 75%;
+    left: 0;
+    position: relative;
+    opacity: 0.5;
+}
+
+.nav-link p{
+    font-size: 23px;
+}
