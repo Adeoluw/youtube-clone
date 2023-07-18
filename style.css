@@ -190,7 +190,8 @@ body{
 
 .nav-link:hover{
     background-color: rgb(225, 222, 222);
-    border-radius: 5px;
+    border-radius: 1git 5px;
+    cursor: pointer;
 }
 
 .show-more{
