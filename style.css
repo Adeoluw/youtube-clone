@@ -139,47 +139,60 @@ body{
 /* Vertical nav */
 
 .vertical-nav{
-    width: 20%;
+    width: 15%;
 }
 
 .section-one hr{
-    width: 75%;
+    width: 100%;
     left: 0;
     position: relative;
     opacity: 0.5;
 }
 
-.nav-link{
+.nav-link {
     display: flex;
+    padding-left: 5px;
+    margin-left: 30px;
 }
-
 .section-one{
-    padding: 20px;
+    padding-top: 20px;
     justify-content: center;
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     line-height: 3px;
 }
 
 .section-two{
-    padding: 20px;
+    padding: 0px;
     justify-content: center;
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     line-height: 3px; 
 }
 
 .section-two hr{
-    width: 75%;
+    width: 100%;
     left: 0;
     position: relative;
     opacity: 0.5;
 }
 
+.nav-link i{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
 .nav-link p{
     font-size: 23px;
+}
+
+.nav-link:hover{
+    background-color: rgb(225, 222, 222);
+    border-radius: 5px;
+}
+
+.show-more{
+    cursor: pointer;
 }
